@@ -12,12 +12,13 @@ export default function Home() {
   });
 
   return (
-    <div className="bg-white relative grid grid-rows-[auto] items-center justify-items-center min-h-screen sm:p-8 md:p-20 ">
-      <div className="w-full h-[300px] sm:h-[500px] md:h-[700px] relative">
+    <div className="bg-white relative items-center justify-items-center min-h-screen ">
+      <div className="w-full h-full flex items-center justify-center">
         <Image
           src="/background.jpeg"
           alt="Background"
-          fill
+          width={1000}
+          height={1000}
           className="object-cover"
           quality={100}
           priority
@@ -59,7 +60,7 @@ export default function Home() {
         </div>
       )}
 
-      <main className="flex flex-col sm:flex-row mt-8 sm:mt-16 md:mt-16 gap-4 sm:gap-8 items-center justify-center w-full">
+      <main className="flex sm:flex-row items-center justify-center w-full space-x-8">
         <a 
           href="https://x.com/" 
           target="_blank" 
