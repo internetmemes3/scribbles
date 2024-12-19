@@ -12,7 +12,7 @@ export default function Home() {
   });
 
   return (
-    <div className="relative grid grid-rows-[auto] items-center justify-items-center min-h-screen sm:p-8 md:p-20 ">
+    <div className="bg-white relative grid grid-rows-[auto] items-center justify-items-center min-h-screen sm:p-8 md:p-20 ">
       <div className="w-full h-[300px] sm:h-[500px] md:h-[700px] relative">
         <Image
           src="/background.jpeg"
@@ -59,7 +59,7 @@ export default function Home() {
         </div>
       )}
 
-      <main className="flex sm:flex-row mt-8 sm:mt-16 md:mt-16 gap-4 sm:gap-8 items-center justify-center w-full">
+      <main className="flex flex-col sm:flex-row mt-8 sm:mt-16 md:mt-16 gap-4 sm:gap-8 items-center justify-center w-full">
         <a 
           href="https://x.com/" 
           target="_blank" 
