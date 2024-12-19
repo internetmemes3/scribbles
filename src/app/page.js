@@ -17,8 +17,8 @@ export default function Home() {
         <Image
           src="/background.jpeg"
           alt="Background"
-          width={1000}
-          height={1000}
+          width={1800}
+          height={1800}
           className="object-cover"
           quality={100}
           priority
